@@ -18,7 +18,6 @@ As a simple example - we'll scrape the front page of Hacker News to fetch th
 1. [Installation](#installation)
 1. [How It Works](#how-it-works)
 1. [How to Query Using CSS Selectors](#how-to-query-using-css-selectors) 
-1. [Test Your Workflow](#test-your-workflow)
 1. [Making Changes](#making-changes)
    1. [via Web Browser](#via-web-browser)
    1. [via Command Line](#via-command-line)
@@ -142,7 +141,7 @@ find your project and select it.
 
 From the environment management screen, simply click **Ship Release**.
 
-<img src="https://cdn-images-1.medium.com/max/1440/1*JqiwC6a_zbIdTsww1BOYLQ.png" width="400">
+<img src="https://cdn-images-1.medium.com/max/1280/1*BuwLFl5bSbOdDglpB7xGrg.png" width="400">
 
 Link any necessary resources, specify the version of the release and click **Create Release** to proceed. 
 
