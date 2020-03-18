@@ -3,15 +3,15 @@
 
 # How to Easily Scrape Websites for Data using Autocode
 
-🏚Scrape real estate listings - businesses are using web scraping to gather listed properties
+🏚 Scrape real estate listings - businesses are using web scraping to gather listed properties
 
-🔎Scrape products/product reviews from retailer or manufacturer websites to show in your site, provide specs/price comparison
+🔎 Scrape products/product reviews from retailer or manufacturer websites to show in your site, provide specs/price comparison
 
-📰Scrape news websites to apply custom analysis and curation (manual or automatic), provide better-targeted news to your audience
+📰 Scrape news websites to apply custom analysis and curation (manual or automatic), provide better-targeted news to your audience
 
-💌Gathering email addresses for lead generation
+💌 Gathering email addresses for lead generation
 
-As a simple example - we'll scrape the front page of Hacker News to fetch the Titles and URLs of links. What you do with the data you scrape is totally up to you. You can aggregate data and perform custom analysis, store it in Airtable, GoogleSheets, or shoot it into Slack for your team to monitor. The possibilities are infinite.
+As a simple example - we'll scrape the front page of Hacker News to fetch the titles and urls of links. What you do with the data you scrape is totally up to you. You can aggregate data and perform custom analysis, store it in Airtable, GoogleSheets, or shoot it into Slack for your team to monitor. The possibilities are infinite.
 
 # Table of Contents
 
