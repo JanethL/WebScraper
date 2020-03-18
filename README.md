@@ -6,8 +6,11 @@
 # Use Case
 
 🏚Scrape real estate listings - businesses are using web scraping to gather listed properties
+
 🔎Scrape products/product reviews from retailer or manufacturer websites to show in your site, provide specs/price comparison
+
 📰Scrape news websites to apply custom analysis and curation (manual or automatic), provide better-targeted news to your audience
+
 💌Gathering email addresses for lead generation
 
 As a simple example - we'll scrape the front page of Hacker News to fetch the Titles and URLs of links. What you do with the data you scrape is totally up to you. You can aggregate data and perform custom analysis, store it in Airtable, GoogleSheets, or shoot it into Slack for your team to monitor. The possibilities are infinite.
@@ -21,6 +24,7 @@ As a simple example - we'll scrape the front page of Hacker News to fetch th
 1. [Making Changes](#making-changes)
    1. [via Web Browser](#via-web-browser)
    1. [via Command Line](#via-command-line)
+1. [Shipping to Production](#Shipping-to-Production)
 1. [Support](#support)
 1. [Acknowledgements](#acknowledgements)
 
@@ -103,5 +107,62 @@ Test Run your code again and you should see a list of URLs.
 
 
 # Making Changes
+
+There are two ways to modify your application. The first is via our in-browser
+editor, [Autocode](https://autocode.com/). The second is
+via the [Standard Library CLI](https://github.com/stdlib/lib).
+
+## via Web Browser
+
+Simply visit [`Autocode.com`](https://autocode.com) and select your project. 
+You can easily make updates and changes this way, and deploy directly from your browser.
+
+## via Command Line
+
+You can install the CLI tools from [stdlib/lib](https://github.com/stdlib/lib) to test,
+makes changes, and deploy.
+
+
+To retrieve your package via `lib get`...
+
+```shell
+lib get <username>/<project-name>@dev
+```
+
+```shell
+# Deploy to dev environment
+lib up dev
+```
+
+# Shipping to Production
+
+Standard Library has easy dev / prod environment management, if you'd like to ship to production,
+visit [`build.stdlib.com/projects`](https://build.stdlib.com/projects),
+find your project and select it.
+
+From the environment management screen, simply click **Ship Release**.
+
+<img src="https://cdn-images-1.medium.com/max/1440/1*JqiwC6a_zbIdTsww1BOYLQ.png" width="400">
+
+Link any necessary resources, specify the version of the release and click **Create Release** to proceed. 
+
+That's all you need to do!
+
 # Support
+
+Via Slack: [`libdev.slack.com`](https://libdev.slack.com/)
+
+You can request an invitation by clicking `Community > Slack` in the top bar
+on [`https://stdlib.com`](https://stdlib.com).
+
+Via Twitter: [@SandardLibrary(https://twitter.com/StandardLibrary)
+
+Via E-mail: [support@stdlib.com](mailto:support@stdlib.com)
+
 # Acknowledgements
+
+Thanks to the Standard Library team and community for all the support!
+
+Keep up to date with platform changes on our [Blog](https://stdlib.com/blog).
+
+Happy hacking!
