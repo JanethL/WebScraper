@@ -34,11 +34,12 @@ You will be prompted to sign in or create a **free account**. If you have a Stan
 
 Once you sign in, give your project a name and click **Start API Project from Github**.
 
-![]()
+<img src= "./functions/readme/Scraper1.png" width="400">
+
 
 Navigate through the `Functions folder` to `_main_.js` file. 
 
-![]()
+<img src= "./functions/readme/scraper2.png" width="400">
 
 Next, select the gray **Edit Payload** button on the upper-right side of the screen to set parameters: `url` and `queries`.
 Copy and Paste the following test parameters in the **Edit Payload** screen:
@@ -56,11 +57,11 @@ Copy and Paste the following test parameters in the **Edit Payload** screen:
 ```
 Click **Save Payload**:
 
-![]()
+<img src= "./functions/readme/scraper3.png" width="400">
 
 Select the green "**Run**" button to test run your code.
 
-![]()
+<img src= "./functions/readme/Scraper4.png" width="400">
 
 Within seconds you should have a list of link titles from the front page of [Hacker News](https://news.ycombinator.com/).
 
@@ -79,23 +80,27 @@ For this example, we used the [".class" selector](https://www.w3schools.com/cssr
 If you are wondering how to find the names of the elements that make up a website - allow me to show you!
 Fire up [Google Chrome](https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMI87WK1Iya3AIVh_hkCh1hMgIIEAAYASAAEgKilfD_BwE&gclsrc=aw.ds&dclid=CLuW3dWMmtwCFcq5ZAodXTwHBA) and type in our [Hacker News](https://news.ycombinator.com/) URL address https://news.ycombinator.com/. Then right-click on the title of any article and select "inspect." This will open the Web Console on Google Chrome. Or you can use **command key (⌘) + option key (⌥ ) + J key.**
 
-![]()
+<img src= "./functions/readme/Scraper5.png" width="400">
 
 The web-developer console will open to the right of your screen. Notice that when you selected the title of a link a section on the console is also highlighted. The highlighted element has "class" defined as "storylink." And now you know how to find the names of elements on any site!
 
-![]()
+<img src= "./functions/readme/Scraper6.png" width="400">
+
 
 If you want to query different metadata on Hacker News, hover your cursor over it. Below you can see how that I found the .class selector = "sitestr" to query a link's URL by hovering my mouse over that element on Hacker News.
 
-![]()
+<img src= "./functions/readme/Scraper7.png" width="400">
+
 
 Update your Test Parameters with the .class you want to retrieve and hit **Save Payload.**
 
-![]()
+<img src= "./functions/readme/Scraper8.png" width="400">
+
 
 Test Run your code again and you should see a list of URLs.
 
-![]()
+<img src= "./functions/readme/Scraper9.png" width="400">
+
 
 # Making Changes
 # Support
