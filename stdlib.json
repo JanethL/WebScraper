@@ -1,0 +1,10 @@
+{
+  "name": "JanethL/WebScraper",
+  "version": "0.0.0",
+  "timeout": 10000,
+  "connector": false,
+  "personalize": {
+    "keys": [],
+    "user": []
+  }
+}

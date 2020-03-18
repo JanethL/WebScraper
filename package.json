@@ -1,0 +1,15 @@
+{
+  "name": "WebScraper",
+  "version": "1.0.0",
+  "description": "",
+  "author": "JanethL",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "html-metadata": "^1.6.3",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "lib": "^4.1.1"
+  },
+  "private": true
+}
