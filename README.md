@@ -3,8 +3,6 @@
 
 # How to Easily Scrape Websites for Data using Autocode
 
-# Use Case
-
 🏚Scrape real estate listings - businesses are using web scraping to gather listed properties
 
 🔎Scrape products/product reviews from retailer or manufacturer websites to show in your site, provide specs/price comparison
@@ -104,6 +102,8 @@ Update your Test Parameters with the .class you want to retrieve and hit **Save
 Test Run your code again and you should see a list of URLs.
 
 <img src= "./functions/readme/Scraper9.png" width="400">
+
+
 
 
 # Making Changes
