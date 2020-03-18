@@ -102,10 +102,11 @@ Test Run your code again and you should see a list of URLs.
 
 <img src= "./ReadMe/Scraper9.png" width="400">
 
-You are ready to deploy your web scraper live! Select Deploy API in the bottom-left of the file manager.
+You are ready to deploy your web scraper live! 
+
+Select Deploy API in the bottom-left of the file manager.
 
 <img src= "https://cdn-images-1.medium.com/max/1280/1*O8Gr57q2onq5qSI85s6gsg.png" width="400">
-
 
 <img src= "https://cdn-images-1.medium.com/max/1280/1*rCft96nOX8C0pc-baaRXvg.png" width="400">
 
