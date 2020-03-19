@@ -18,6 +18,7 @@ As a simple example - we'll scrape the front page of Hacker News to fetch th
 1. [Installation](#installation)
 1. [How It Works](#how-it-works)
 1. [How to Query Using CSS Selectors](#how-to-query-using-css-selectors) 
+1. [Test your Web Scraper](#test-your-web-scraper) 
 1. [Making Changes](#making-changes)
    1. [via Web Browser](#via-web-browser)
    1. [via Command Line](#via-command-line)
@@ -83,24 +84,13 @@ Fire up [Google Chrome](https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQob
 
 <img src= "./ReadMe/Scraper5.png" width="400">
 
-The web-developer console will open to the right of your screen. Notice that when you selected the title of a link a section on the console is also highlighted. The highlighted element has "class" defined as "storylink." And now you know how to find the names of elements on any site!
+The web-developer console will open to the right of your screen. Notice that when you selected the title of a link a section on the console is also highlighted. The highlighted element has "class" defined as "storylink." And now you know how we queried for title of a link!
 
 <img src= "./ReadMe/Scraper6.png" width="400">
 
+You're now an expert at finding the names of elements on any site! 😉
 
-If you want to query different metadata on Hacker News, hover your cursor over it. Below you can see how that I found the .class selector = "sitestr" to query a link's URL by hovering my mouse over that element on Hacker News.
-
-<img src= "./ReadMe/Scraper7.png" width="400">
-
-
-Update your Test Parameters with the .class you want to retrieve and hit **Save Payload.**
-
-<img src= "./ReadMe/Scraper8.png" width="400">
-
-
-Test Run your code again and you should see a list of URLs.
-
-<img src= "./ReadMe/Scraper9.png" width="400">
+# 🚀 Deploy your Web Scraper
 
 You are ready to deploy your web scraper live! 
 
@@ -111,6 +101,32 @@ Select Deploy API in the bottom-left of the file manager.
 <img src= "https://cdn-images-1.medium.com/max/1280/1*rCft96nOX8C0pc-baaRXvg.png" width="400">
 
 🚀 Congrats! Your website scraper is Live!
+
+# Test your Web Scraper 
+
+If you want to query different metadata on Hacker News, hover your cursor over it. Below you can see that I found the .class selector = "sitestr" to query a link's URL by hovering my mouse over that element on Hacker News.
+
+<img src= "./ReadMe/Scraper7.png" width="400">
+
+Now that you have the .class selector for the links of url, test your live web scraper.
+Find and select your project from your dashboard at https://build.stdlib.com/.
+Enter your project manager by selecting **dev.**
+
+<img src= "https://cdn-images-1.medium.com/max/1600/1*0UhSPyLKyIsoIeM8yFu56g.png" width="400">
+
+Select the Docs link for your Web Scraper.
+
+<img src= "https://cdn-images-1.medium.com/max/1600/1*lnDEXjcqAuNGKlutx_cxZg.png" width="400">
+
+Input the url for Hacker News: `https://news.ycombinator.com/`
+
+Input queries: `[[".sitestr", "text"]]` 
+
+And select **Run Function.**
+
+You should see a list of link urls returned as shown in this screenshot:
+
+<img src= "https://cdn-images-1.medium.com/max/1600/1*fwDH0t1WXuOSQSUN5XytfQ.png" width="400">
 
 # Making Changes
 
@@ -140,7 +156,7 @@ lib get <username>/<project-name>@dev
 lib up dev
 ```
 
-# Shipping to Production
+# Versioning Your API
 
 Standard Library has easy dev / prod environment management, if you'd like to ship to production,
 visit [`build.stdlib.com/projects`](https://build.stdlib.com/projects),
@@ -172,3 +188,4 @@ Thanks to the Standard Library team and community for all the support!
 Keep up to date with platform changes on our [Blog](https://stdlib.com/blog).
 
 Happy hacking!
+
