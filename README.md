@@ -16,7 +16,7 @@ As a simple example - we'll scrape the front page of Hacker News to fetch th
 # Table of Contents
 
 1. [Installation](#installation)
-1. [How It Works](#how-it-works)
+1. [🤓How It Works](#🤓how-it-works)
 1. [How to Query Using CSS Selectors](#how-to-query-using-css-selectors) 
 1. [Test your Web Scraper](#test-your-web-scraper) 
 1. [Making Changes](#making-changes)
