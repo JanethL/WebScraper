@@ -22,7 +22,7 @@ As a simple example - we'll scrape the front page of Hacker News to fetch th
 1. [Making Changes](#making-changes)
    1. [via Web Browser](#via-web-browser)
    1. [via Command Line](#via-command-line)
-1. [Shipping to Production](#Shipping-to-Production)
+1. [Versioning Your API](#versioning-your-api)
 1. [Support](#support)
 1. [Acknowledgements](#acknowledgements)
 
@@ -67,7 +67,7 @@ Select the green "**Run**" button to test run your code.
 
 Within seconds you should have a list of link titles from the front page of [Hacker News](https://news.ycombinator.com/).
 
-# How It Works
+# 🤓 How It Works
 
 The web scraper makes a simple GET request to a URL, and runs a series of queries on the resulting page and returns it to you. 
 It uses cheerio DOM (Document Object Model) processor, enabling us to use CSS-selectors to grab data from the page. CSS
