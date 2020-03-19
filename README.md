@@ -16,7 +16,7 @@ As a simple example - we'll scrape the front page of Hacker News to fetch th
 # Table of Contents
 
 1. [Installation](#installation)
-1. [🤓How It Works](#how-it-works)
+1. [How It Works](#🤓how-it-works)
 1. [How to Query Using CSS Selectors](#how-to-query-using-css-selectors) 
 1. [Test your Web Scraper](#test-your-web-scraper) 
 1. [Making Changes](#making-changes)
@@ -67,7 +67,7 @@ Select the green "**Run**" button to test run your code.
 
 Within seconds you should have a list of link titles from the front page of [Hacker News](https://news.ycombinator.com/).
 
-# 🤓 How It Works
+# 🤓How It Works
 
 The web scraper makes a simple GET request to a URL, and runs a series of queries on the resulting page and returns it to you. 
 It uses cheerio DOM (Document Object Model) processor, enabling us to use CSS-selectors to grab data from the page. CSS
