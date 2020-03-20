@@ -11,7 +11,9 @@
 
 💌 Gathering email addresses for lead generation
 
-As a simple example - we'll scrape the front page of Hacker News to fetch the titles and urls of links. What you do with the data you scrape is totally up to you. You can aggregate data and perform custom analysis, store it in Airtable, GoogleSheets, or shoot it into Slack for your team to monitor. The possibilities are infinite.
+As a simple example — we’ll learn to scrape the front page of Hacker News to fetch the Titles and URLs of links. You can aggregate data and perform custom analysis, store it in Airtable, Google sheets, or share it with your team inside Slack. The possibilities are infinite!
+
+Please remember to respect the policies around web crawlers of any sites you scrape.
 
 # Table of Contents
 
